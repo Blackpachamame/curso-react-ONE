@@ -11,7 +11,7 @@ Create React App es una forma oficialmente admitida de crear aplicaciones React 
 - Opción para editar el color de equipo
 - Nos basaremos en el siguiente [diseño](https://www.figma.com/file/g0lPfF6MnBImDq7ube3STz/Intro-a-React-Org)
 
-## [Sitio en vivo](https://org-alura-orcin.vercel.app)
+## [Sitio en vivo]([https://org-alura-orcin.vercel.app](https://org-alura-nu.vercel.app/)) 🌐
 
 ## Comenzando
 
