@@ -91,14 +91,6 @@ function App() {
   },
   {
     id: uuid(),
-    equipo: "Innovación y Gestión",
-    foto: "/img/perfil/pazcorrea.jpg",
-    nombre: "Paz Correa",
-    puesto: "Community Manager",
-    fav: true,
-  },
-  {
-    id: uuid(),
     equipo: "UX y Diseño",
     foto: "https://github.com/Mapinko.png",
     nombre: "Mariana Spinola",
