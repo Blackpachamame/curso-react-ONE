@@ -7,7 +7,7 @@ function Banner({ img, color }) {
       style={{ backgroundImage: `url("/img/banner-${img}.png")` }}
     >
       <div className={styles.gradient} style={{ background: `${color}` }}>
-        
+
       </div>
     </div>
   );

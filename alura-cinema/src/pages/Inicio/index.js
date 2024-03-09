@@ -7,7 +7,6 @@ import videos from "data/db.json";
 function Inicio() {
   return (
     <>
-     
       <Banner img="home" color="#154580" />
       <Titulo>
         <h1>Un lugar para guardar sus videos favoritos </h1>
@@ -18,8 +17,6 @@ function Inicio() {
           return <Card {...video} key={video.id} />;
         })}
       </section>
-
-
     </>
   );
 }

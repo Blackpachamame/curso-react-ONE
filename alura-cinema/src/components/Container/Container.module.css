@@ -2,7 +2,8 @@
   flex-direction: column;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
   gap: 0.5em;
+  min-height: calc(100vh - 76px - 62px);
 }
