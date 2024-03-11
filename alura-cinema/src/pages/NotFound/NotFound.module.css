@@ -1,0 +1,15 @@
+.container {
+  min-height: calc(100vh - 76px - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_error {
+  font-size: 2em;
+}
+.error {
+  font-size: 12em;
+  color: #222222;
+}
