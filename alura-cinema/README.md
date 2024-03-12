@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Alura Cinema
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Como proyecto haremos una página de Alura Cinema que debe contar con la posibilidad de:
 
-## Available Scripts
+- Listar los videos
+- Añadir y ver favoritos
+- Ver los videos en nuestra aplicación
 
-In the project directory, you can run:
+## [Sitio en vivo](#) 🌐
 
-### `npm start`
+## Comenzando
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Luego abra `http://localhost:3000/` para ver su aplicación.
 
-### `npm test`
+Cuando esté listo para implementar en producción, cree un paquete minimizado con `npm run build`.
+Puedes levantar un servidor estático con: `serve -s build`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Recursos
+- React Create App
+- React Router Dom
+- Figma
+- My JSON Server
 
-### `npm run build`
+## Lo que aprendimos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Analizar Figma.
+- Crear un proyecto React.
+- Identificar archivos que se pueden eliminar de la base del proyecto React.
+- Configurar el directorio utilizado en el curso con `jsconfig.json`.
+- Crear componentes (Cabecera y CabeceraLink).
+- Estilizar componentes con módulos CSS.
+- Practicar la creación de componentes (Pie).
+- Crear nuevos componentes.
+- Construir nuevas rutas.
+- Compartir información entre componentes con `props` y `children`.
+- Importar datos desde un archivo JSON.
+- Utilizar el método `.map` para listar componentes.
+- Crear contextos a través de la Context API utilizando `createContext`.
+- Permitir el uso de contextos en los elementos con `Provider` y `useContext`.
+- Construir `hooks` personalizados.
+- Buscar valores dentro de un array con el método `some`.
+- Eliminar elementos de un array con el método `splice` y la ayuda de `indexOf`.
+- Instalar y usar la extensión `React Context DevTool`.
+- Crear `rutas dinámicas`.
+- Enviar parámetros a través de la URL.
+- Recibir parámetros con el hook `useParams`.
+- Planificar rutas para URLs que no existen.
+- Construir `rutas anidadas`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Recursos útiles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Create React App](https://create-react-app.dev) - Documentación.
