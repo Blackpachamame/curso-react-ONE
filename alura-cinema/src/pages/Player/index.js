@@ -1,14 +1,24 @@
+import { useEffect, useState } from "react";
 import Banner from "components/Banner";
 import Titulo from "components/Titulo";
 import NotFound from "pages/NotFound";
 import { useParams } from "react-router-dom";
 import styles from "./Player.module.css";
-import videos from "data/db.json";
 
 function Player() {
-    const parametros = useParams();
-    const video = videos.find(video => video.id === Number(parametros.id))
+    const [video, setVideo] = useState([])
+
+    const parametros = useParams()
+    useEffect(() => {
+        fetch(`https://my-json-server.typicode.com/Blackpachamame/alura-cinema-api/videos?id=${parametros.id}`)
+            .then(response => response.json())
+            .then(data => {
+                setVideo(...data)
+            })
+    }, [])
+    // const video = videos.find(video => video.id === Number(parametros.id))
     if (!video) return <NotFound />
+
     return (
         <>
             <Banner img="player" color="#58B9AE" />
