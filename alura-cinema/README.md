@@ -6,7 +6,7 @@ Como proyecto haremos una página de Alura Cinema que debe contar con la posibil
 - Añadir y ver favoritos
 - Ver los videos en nuestra aplicación
 
-## [Sitio en vivo](#) 🌐
+## [Sitio en vivo](https://alura-cinema-virid.vercel.app/) 🌐
 
 ## Comenzando
 
@@ -22,7 +22,7 @@ Cuando esté listo para implementar en producción, cree un paquete minimizado c
 Puedes levantar un servidor estático con: `serve -s build`.
 
 ## Recursos
-- React Create App
+- Create React App
 - React Router Dom
 - Figma
 - My JSON Server
@@ -52,6 +52,10 @@ Puedes levantar un servidor estático con: `serve -s build`.
 - Recibir parámetros con el hook `useParams`.
 - Planificar rutas para URLs que no existen.
 - Construir `rutas anidadas`.
+- Subir un prototipo de API a Github.
+- Alojar el prototipo de la API en My Json Server.
+- Consumir APIs con `Fetch API`.
+- Realizar la implementación del proyecto.
 
 ## Recursos útiles
 
