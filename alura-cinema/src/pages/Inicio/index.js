@@ -9,7 +9,7 @@ function Inicio() {
 
   useEffect(() => {
     fetch(
-      "https://my-json-server.typicode.com/Blackpachamame/alura-cinema-api/videos"
+      "https://my-json-server.typicode.com/Blackpachamame/curso-react-one/videos"
     )
       .then((response) => response.json())
       .then((data) => {
